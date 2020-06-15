@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 80.669 s <<< FAILURE! - in TestSuite
+BarcodeTest(MobileCloudComputing.AppTest)  Time elapsed: 16.981 s  <<< FAILURE!
+java.lang.AssertionError: java.lang.Exception: Internal Error. Could not load test case.
+	at MobileCloudComputing.AppTest.runTest(AppTest.java:111)
+	at MobileCloudComputing.AppTest.BarcodeTest(AppTest.java:61)
+
+LargeLandscapeTest(MobileCloudComputing.AppTest)  Time elapsed: 18.751 s  <<< FAILURE!
+java.lang.AssertionError: java.lang.Exception: Internal Error. Could not load test case.
+	at MobileCloudComputing.AppTest.runTest(AppTest.java:111)
+	at MobileCloudComputing.AppTest.LargeLandscapeTest(AppTest.java:71)
+
+SelfieTest(MobileCloudComputing.AppTest)  Time elapsed: 17.436 s  <<< FAILURE!
+java.lang.AssertionError: java.lang.Exception: Internal Error. Could not load test case.
+	at MobileCloudComputing.AppTest.runTest(AppTest.java:111)
+	at MobileCloudComputing.AppTest.SelfieTest(AppTest.java:56)
+

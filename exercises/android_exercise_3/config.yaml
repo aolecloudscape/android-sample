@@ -1,0 +1,22 @@
+---
+title: Application Submission
+description: Retrieve a JSON file and display contents in a ListView
+instructions: |
+
+    <h1>Upload APK file</h1>
+    <p>
+        You can generate the APK file from Android Studio by using the <b>Build APK</b> option, which produces a debug APK file. The name that you choose for the uploaded file is irrelevant and does not affect the automated grading.
+    </p><br />
+
+view_type: access.types.stdasync.acceptFiles
+files:
+  - field: file1
+    name: application.apk
+never_wait: true
+accepted_message: Your submission has been accepted and is being graded by means of an automated system. This can take up to 5 minutes. Please refresh this page after a couple of minutes to see the result.
+
+container:
+  image: aolecloudscape/android-grader:20200528143500759efb
+  mount: exercises/android_exercise_3
+  cmd: /exercise/run.sh
+

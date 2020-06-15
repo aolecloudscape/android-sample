@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="25721" started-at="2017-09-07T10:57:10Z" finished-at="2017-09-07T10:57:36Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="25721" started-at="2017-09-07T10:57:10Z" finished-at="2017-09-07T10:57:36Z">
+      <class name="MobileCloudComputing.startappium">
+        <test-method status="PASS" signature="appium()[pri:0, instance:MobileCloudComputing.startappium@4566e5bd]" name="appium" is-config="true" duration-ms="21" started-at="2017-09-07T13:57:10Z" finished-at="2017-09-07T13:57:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium -->
+        <test-method status="PASS" signature="killappium()[pri:0, instance:MobileCloudComputing.startappium@4566e5bd]" name="killappium" is-config="true" duration-ms="1" started-at="2017-09-07T13:57:36Z" finished-at="2017-09-07T13:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killappium -->
+      </class> <!-- MobileCloudComputing.startappium -->
+      <class name="MobileCloudComputing.AppTest">
+        <test-method status="PASS" signature="barcodeTest()[pri:0, instance:MobileCloudComputing.AppTest@1ed4004b]" name="barcodeTest" duration-ms="25693" started-at="2017-09-07T13:57:10Z" finished-at="2017-09-07T13:57:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- barcodeTest -->
+      </class> <!-- MobileCloudComputing.AppTest -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

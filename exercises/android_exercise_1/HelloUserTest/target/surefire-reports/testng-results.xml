@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="37750" started-at="2017-09-27T09:07:55Z" finished-at="2017-09-27T09:08:33Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="37750" started-at="2017-09-27T09:07:55Z" finished-at="2017-09-27T09:08:33Z">
+      <class name="MobileCloudComputing.startappium">
+        <test-method status="PASS" signature="appium()[pri:0, instance:MobileCloudComputing.startappium@1bce4f0a]" name="appium" is-config="true" duration-ms="12" started-at="2017-09-27T09:07:55Z" finished-at="2017-09-27T09:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium -->
+      </class> <!-- MobileCloudComputing.startappium -->
+      <class name="MobileCloudComputing.AppTest">
+        <test-method status="PASS" signature="InstallAPK()[pri:0, instance:MobileCloudComputing.AppTest@5e3a8624]" name="InstallAPK" is-config="true" duration-ms="30593" started-at="2017-09-27T09:07:55Z" finished-at="2017-09-27T09:08:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallAPK -->
+        <test-method status="PASS" signature="HelloUserTest()[pri:0, instance:MobileCloudComputing.AppTest@5e3a8624]" name="HelloUserTest" duration-ms="7150" started-at="2017-09-27T09:08:26Z" description="Enter an input text and check that it is appended to the TextView." finished-at="2017-09-27T09:08:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloUserTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:MobileCloudComputing.AppTest@5e3a8624]" name="closeDriver" is-config="true" duration-ms="1633" started-at="2017-09-27T09:08:33Z" finished-at="2017-09-27T09:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="killappium()[pri:0, instance:MobileCloudComputing.startappium@1bce4f0a]" name="killappium" is-config="true" duration-ms="0" started-at="2017-09-27T09:08:35Z" finished-at="2017-09-27T09:08:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killappium -->
+      </class> <!-- MobileCloudComputing.AppTest -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

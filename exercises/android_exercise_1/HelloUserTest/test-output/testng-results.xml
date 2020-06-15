@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="20178" started-at="2017-08-30T12:51:48Z" finished-at="2017-08-30T12:52:08Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="20178" started-at="2017-08-30T12:51:48Z" finished-at="2017-08-30T12:52:08Z">
+      <class name="MobileCloudComputing.startappium">
+        <test-method status="PASS" signature="appium()[pri:0, instance:MobileCloudComputing.startappium@73846619]" name="appium" is-config="true" duration-ms="12049" started-at="2017-08-30T15:51:35Z" finished-at="2017-08-30T15:51:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium -->
+        <test-method status="PASS" signature="killappium()[pri:0, instance:MobileCloudComputing.startappium@73846619]" name="killappium" is-config="true" duration-ms="1" started-at="2017-08-30T15:52:08Z" finished-at="2017-08-30T15:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killappium -->
+      </class> <!-- MobileCloudComputing.startappium -->
+      <class name="MobileCloudComputing.AppTest">
+        <test-method status="PASS" signature="HelloUserTest()[pri:0, instance:MobileCloudComputing.AppTest@4bec1f0c]" name="HelloUserTest" duration-ms="20167" started-at="2017-08-30T15:51:48Z" finished-at="2017-08-30T15:52:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloUserTest -->
+      </class> <!-- MobileCloudComputing.AppTest -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

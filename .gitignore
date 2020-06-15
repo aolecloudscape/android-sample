@@ -1,0 +1,14 @@
+.DS_Store
+*~
+
+__pycache__/
+*.py[cod]
+
+.idea
+.settings
+.project
+.pydevproject
+*.sublime-project
+*.sublime-workspace
+
+_build/

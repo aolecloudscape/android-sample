@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Smoke Test]">
+  <listeners>
+    <listener class-name="MobileCloudComputing.AplusListener"/>
+    <listener class-name="MobileCloudComputing.AplusReporter"/>
+  </listeners>
+  <test name="Smoke Testcases(failed)">
+    <classes>
+      <class name="MobileCloudComputing.AppTest">
+        <methods>
+          <include name="LargeLandscapeTest"/>
+          <include name="SelfieTest"/>
+          <include name="BarcodeTest"/>
+          <include name="InstallAPK"/>
+        </methods>
+      </class> <!-- MobileCloudComputing.AppTest -->
+      <class name="MobileCloudComputing.startappium">
+        <methods>
+          <include name="killappium"/>
+          <include name="appium"/>
+        </methods>
+      </class> <!-- MobileCloudComputing.startappium -->
+    </classes>
+  </test> <!-- Smoke Testcases(failed) -->
+</suite> <!-- Failed suite [Smoke Test] -->

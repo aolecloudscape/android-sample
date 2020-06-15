@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Test" duration-ms="45728" started-at="2017-09-27T13:37:09Z" finished-at="2017-09-27T13:37:55Z">
+    <groups>
+    </groups>
+    <test name="Smoke Testcases" duration-ms="45728" started-at="2017-09-27T13:37:09Z" finished-at="2017-09-27T13:37:55Z">
+      <class name="MobileCloudComputing.startappium">
+        <test-method status="PASS" signature="appium()[pri:0, instance:MobileCloudComputing.startappium@5dfcfece]" name="appium" is-config="true" duration-ms="5" started-at="2017-09-27T13:37:09Z" finished-at="2017-09-27T13:37:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appium -->
+      </class> <!-- MobileCloudComputing.startappium -->
+      <class name="MobileCloudComputing.AppTest">
+        <test-method status="PASS" signature="InstallAPK()[pri:0, instance:MobileCloudComputing.AppTest@23ceabc1]" name="InstallAPK" is-config="true" duration-ms="34523" started-at="2017-09-27T13:37:09Z" finished-at="2017-09-27T13:37:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InstallAPK -->
+        <test-method status="PASS" signature="ImageExerciseTest()[pri:0, instance:MobileCloudComputing.AppTest@23ceabc1]" name="ImageExerciseTest" duration-ms="11194" started-at="2017-09-27T13:37:44Z" description="Passes a JSON with a list of images and verifies that they are rendered in a ListView (Image and Author)." finished-at="2017-09-27T13:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ImageExerciseTest -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:MobileCloudComputing.AppTest@23ceabc1]" name="closeDriver" is-config="true" duration-ms="2685" started-at="2017-09-27T13:37:55Z" finished-at="2017-09-27T13:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+        <test-method status="PASS" signature="killappium()[pri:0, instance:MobileCloudComputing.startappium@5dfcfece]" name="killappium" is-config="true" duration-ms="1" started-at="2017-09-27T13:37:58Z" finished-at="2017-09-27T13:37:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- killappium -->
+      </class> <!-- MobileCloudComputing.AppTest -->
+    </test> <!-- Smoke Testcases -->
+  </suite> <!-- Smoke Test -->
+</testng-results>

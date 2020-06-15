@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name = "Smoke Test">
+   <listeners>
+        <listener class-name="MobileCloudComputing.AplusListener" />
+        <listener class-name="MobileCloudComputing.AplusReporter" />
+    </listeners>
+
+	<test name="Smoke Testcases">
+		<packages>
+		
+		<package name = "MobileCloudComputing"/>
+		
+		</packages>
+	</test>>
+</suite>
